@@ -22,3 +22,16 @@
 /Users/juliengimenez/Projects/Winfitness/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/juliengimenez/Projects/Winfitness/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
 /Users/juliengimenez/Projects/Winfitness/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/juliengimenez/Winfitness-xamarin/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/juliengimenez/Winfitness-xamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Winfitness.iOS.exe.mdb
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Winfitness.iOS.exe
+/Users/juliengimenez/Winfitness-xamarin/iOS/obj/iPhoneSimulator/Debug/Winfitness.iOS.exe
+/Users/juliengimenez/Winfitness-xamarin/iOS/obj/iPhoneSimulator/Debug/Winfitness.iOS.exe.mdb
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Winfitness.dll
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Winfitness.dll.mdb
+/Users/juliengimenez/Winfitness-xamarin/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll

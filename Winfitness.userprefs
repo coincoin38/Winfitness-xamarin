@@ -1,10 +1,10 @@
-﻿<Properties StartupConfiguration="{63754B20-6E40-4CAA-A67F-64490B1B573F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Winfitness/Pages/CalendarPage.xaml.cs">
+﻿<Properties StartupConfiguration="{EBC793CB-E061-4E3B-BC36-74E6BD8E6906}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Winfitness/Services/JSONParser.cs">
     <Files>
       <File FileName="Winfitness/Models/Day.cs" Line="10" Column="33" />
       <File FileName="Winfitness/Models/Session.cs" Line="10" Column="3" />
-      <File FileName="Winfitness/Services/JSONParser.cs" Line="2" Column="1" />
-      <File FileName="Winfitness/Pages/CalendarPage.xaml.cs" Line="13" Column="43" />
+      <File FileName="Winfitness/Services/JSONParser.cs" Line="67" Column="1" />
+      <File FileName="Winfitness/Pages/CalendarPage.xaml.cs" Line="13" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
