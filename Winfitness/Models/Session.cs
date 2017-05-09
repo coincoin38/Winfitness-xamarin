@@ -8,5 +8,6 @@ namespace Winfitness
 		public string Duration { get; set; }
 		public string Day { get; set; }
 		public bool Attendance { get; set; }
+		public Sport Sport;
 	}
 }

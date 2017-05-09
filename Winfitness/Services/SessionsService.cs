@@ -1,25 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Winfitness
 {
 	public class SessionsService
 	{
-		public static List<Day> weekCalendar()
+		private List<Day> days;
+   		private List<Session> mondaySessions;
+		private List<Session> tuesdaySessions;
+		private List<Session> wednesdsaySessions;
+		private List<Session> thursdaySessions;
+		private List<Session> fridaySessions;
+		private List<Session> satudraySessions;
+
+		private List<Sport> sports;
+		private List<Description> descriptions;
+
+		public SessionsService()
 		{
-			List<Day> days = JSONParser.daysFeed();
-			List<Session> mondaySessions = JSONParser.mondaySessionsFeed();
-			List<Session> tuesdaySessions = JSONParser.tuesdaySessionsFeed();
-			List<Session> wednesdsaySessions = JSONParser.wednesdaySessionsFeed();
-			List<Session> thursdaySessions = JSONParser.thursdaySessionsFeed();
-			List<Session> fridaySessions = JSONParser.fridaydaySessionsFeed();
-			List<Session> satudraySessions = JSONParser.saturdaySessionsFeed();
+			descriptions = JSONParser.descriptionsFeed();
+			sports = JSONParser.sportsFeed();
+			days = JSONParser.daysFeed();
 
-			foreach (Day day in days)
-			{
-				int caseSwitch = Convert.ToInt32(day.Id);
+		   	mondaySessions = sportsForSession(JSONParser.mondaySessionsFeed());
+			tuesdaySessions = sportsForSession(JSONParser.tuesdaySessionsFeed());
+			wednesdsaySessions = sportsForSession(JSONParser.wednesdaySessionsFeed());
+			thursdaySessions = sportsForSession(JSONParser.thursdaySessionsFeed());
+			fridaySessions = sportsForSession(JSONParser.fridaydaySessionsFeed());
+			satudraySessions = sportsForSession(JSONParser.saturdaySessionsFeed());
+		}
 
-				switch (caseSwitch)
+		public List<Day> weekCalendar()
+		{
+			return days;
+		}
+
+		public Day dayWithSession(Day day)
+		{
+				int idDay = Convert.ToInt32(day.Id);
+
+				switch (idDay)
 				{
 					case 1:
 						day.Sessions = mondaySessions;
@@ -42,8 +63,33 @@ namespace Winfitness
 					default:
 						break;
 				}
+
+			return day;
+		}
+
+		private List<Session> sportsForSession(List<Session> sessions)
+		{
+			foreach (Session session in sessions)
+			{
+				var sportResult = sports.Where(Sport => Sport.Id == session.Sport_id);
+				if (sportResult != null)
+				{
+					session.Sport = sportResult.ElementAt(0);
+				}
 			}
-			return days;
+
+			return sessions;
+		}
+
+		private Sport descriptionsForSport(Sport sport)
+		{
+			var descriptionResult = descriptions.Where(Description => Description.Key_sport == sport.Id);
+			if (descriptionResult != null)
+			{
+				sport.Description = descriptionResult.ElementAt(0);
+			}
+
+			return sport;
 		}
 	}
 }

@@ -70,6 +70,7 @@
     <Compile Include="Models\Day.cs" />
     <Compile Include="Models\Session.cs" />
     <Compile Include="Services\SessionsService.cs" />
+    <Compile Include="Models\Description.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -87,11 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Models\Stubs\sportsFeed.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Models\Stubs\" />
     <Folder Include="Services\" />
     <Folder Include="Pages\" />
   </ItemGroup>

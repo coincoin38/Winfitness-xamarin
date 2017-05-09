@@ -8,7 +8,8 @@ namespace Winfitness
 		public CalendarPage()
 		{
 			InitializeComponent();
-			DaysListView.ItemsSource = SessionsService.weekCalendar();
+			SessionsService sessionsService = new SessionsService(); 
+			DaysListView.ItemsSource = sessionsService.weekCalendar();
 		}
 	}
 }

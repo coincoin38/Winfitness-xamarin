@@ -9,5 +9,6 @@ namespace Winfitness
 		public string Description_id { get; set; }
 		public string Color { get; set; }
 		public string Image { get; set; }
+		public Description Description { get; set; }
 	}
 }
