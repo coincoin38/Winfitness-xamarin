@@ -69,6 +69,7 @@
     </Compile>
     <Compile Include="Models\Day.cs" />
     <Compile Include="Models\Session.cs" />
+    <Compile Include="Services\SessionsService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
