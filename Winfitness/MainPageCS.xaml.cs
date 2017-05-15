@@ -9,7 +9,10 @@ namespace Winfitness
 	{
 		public MainPageCS()
 		{
-			var newsNavigationPage = new NavigationPage (new NewsPage ());
+			BarBackgroundColor = Color.FromHex("#242021");
+			BarTextColor = Color.White;
+
+			var newsNavigationPage = new NavigationPage(new NewsPage());
 			newsNavigationPage.Title = "News";
 
 			var calendarNavigationPage = new NavigationPage(new CalendarPage());
@@ -21,10 +24,10 @@ namespace Winfitness
 			var informationNavigationPage = new NavigationPage(new InformationsPage());
 			informationNavigationPage.Title = "Informations";
 
-			Children.Add (newsNavigationPage);
-			Children.Add (calendarNavigationPage);
-			Children.Add (sportsNavigationPage);
-			Children.Add (informationNavigationPage);
+			Children.Add(newsNavigationPage);
+			Children.Add(calendarNavigationPage);
+			Children.Add(sportsNavigationPage);
+			Children.Add(informationNavigationPage);
 		}
 	}
 }

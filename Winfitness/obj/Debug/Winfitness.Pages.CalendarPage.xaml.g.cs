@@ -11,16 +11,16 @@
 namespace Winfitness {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/juliengimenez/Projects/Winfitness/Winfitness/Pages/CalendarPage.xaml")]
-    public partial class CalendarPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/juliengimenez/Winfitness-xamarin/Winfitness/Pages/CalendarPage.xaml")]
+    public partial class CalendarPage : global::Winfitness.BaseContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView DaysListView;
+        private global::Xamarin.Forms.ListView daysListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(CalendarPage));
-            DaysListView = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.ListView>(this, "DaysListView");
+            daysListView = global::Xamarin.Forms.NameScopeExtensions.FindByName <global::Xamarin.Forms.ListView>(this, "daysListView");
         }
     }
 }

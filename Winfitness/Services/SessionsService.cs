@@ -6,7 +6,7 @@ namespace Winfitness
 {
 	public class SessionsService
 	{
-		private List<Day> days;
+		public List<Day> days;
    		private List<Session> mondaySessions;
 		private List<Session> tuesdaySessions;
 		private List<Session> wednesdsaySessions;
@@ -36,38 +36,39 @@ namespace Winfitness
 			return days;
 		}
 
-		public Day dayWithSession(Day day)
+		public List<Session> sessionsForDay(String day)
 		{
-				int idDay = Convert.ToInt32(day.Id);
+			int idDay = Convert.ToInt32(day);
+			List<Session> sessions = new List<Session>();
 
-				switch (idDay)
-				{
-					case 1:
-						day.Sessions = mondaySessions;
-						break;
-					case 2:
-						day.Sessions = tuesdaySessions;
-						break;
-					case 3:
-						day.Sessions = wednesdsaySessions;
-						break;
-					case 4:
-						day.Sessions = thursdaySessions;
-						break;
-					case 5:
-						day.Sessions = fridaySessions;
-						break;
-					case 6:
-						day.Sessions = satudraySessions;
-						break;
-					default:
-						break;
+			switch (idDay)
+			{
+				case 1:
+					sessions = mondaySessions;
+					break;
+				case 2:
+					sessions = tuesdaySessions;
+					break;
+				case 3:
+					sessions = wednesdsaySessions;
+					break;
+				case 4:
+					sessions = thursdaySessions;
+					break;
+				case 5:
+					sessions = fridaySessions;
+					break;
+				case 6:
+					sessions = satudraySessions;
+					break;
+				default:
+					break;
 				}
 
-			return day;
+			return sessions;
 		}
 
-		private List<Session> sportsForSession(List<Session> sessions)
+		public List<Session> sportsForSession(List<Session> sessions)
 		{
 			foreach (Session session in sessions)
 			{

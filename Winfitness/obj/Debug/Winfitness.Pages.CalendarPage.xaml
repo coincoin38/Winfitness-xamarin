@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Winfitness.CalendarPage">
-	<ListView x:Name="DaysListView" RowHeight="60">  
+<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			xmlns:local="clr-namespace:Winfitness;assembly=Winfitness"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	         x:Class="Winfitness.CalendarPage">
+	<ListView 
+		x:Name="daysListView"
+		ItemsSource="{Binding WeekDays}"
+		SelectedItem="{Binding SelectedDay, Mode=TwoWay}"
+		RowHeight="60">
 		<ListView.ItemTemplate>  
 			<DataTemplate>  
 				<ViewCell>  
@@ -9,4 +16,4 @@
 			</DataTemplate>  
 		</ListView.ItemTemplate>  
 	</ListView>
-</ContentPage>
+</local:BaseContentPage>
