@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Winfitness.SportsPage">
-	<ListView x:Name="SportsListView" RowHeight="60">  
-		<ListView.ItemTemplate>  
-			<DataTemplate>  
-				<ViewCell>  
-						<Label Text="{Binding Name}" TextColor="{Binding Color}" LineBreakMode="TailTruncation" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Font="Helvetica-bold" />  
-				</ViewCell>  
-			</DataTemplate>  
-		</ListView.ItemTemplate>  
-	</ListView>
-</ContentPage>
+<local:BaseContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:local="clr-namespace:Winfitness;assembly=Winfitness"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="Winfitness.SportsPage">
+    	<ListView x:Name="SportsListView" RowHeight="60">  
+    		<ListView.ItemTemplate>  
+    			<DataTemplate>  
+    				<ViewCell>  
+    						<Label Text="{Binding Name}" TextColor="{Binding Color}" LineBreakMode="TailTruncation" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Font="Helvetica-bold" />  
+    				</ViewCell>  
+    			</DataTemplate>  
+    		</ListView.ItemTemplate>  
+    	</ListView>
+</local:BaseContentPage>

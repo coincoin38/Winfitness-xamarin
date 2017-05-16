@@ -12,7 +12,7 @@ namespace Winfitness {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/juliengimenez/Winfitness-xamarin/Winfitness/Pages/InformationsPage.xaml")]
-    public partial class InformationsPage : global::Xamarin.Forms.ContentPage {
+    public partial class InformationsPage : global::Winfitness.BaseContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {

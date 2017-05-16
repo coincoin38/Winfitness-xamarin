@@ -6,7 +6,11 @@ namespace Winfitness
 {
 	public class BaseContentPage : ContentPage
 	{
-		public BaseContentPage()  :base (){}
-	}
+		public BaseContentPage() : base() 
+        {
+           
+        }
+    }
 }
+
 

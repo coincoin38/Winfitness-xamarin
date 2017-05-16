@@ -10,8 +10,6 @@ namespace Winfitness
 		public MainPageCS()
 		{
 			BarBackgroundColor = Color.FromHex("#242021");
-			BarTextColor = Color.White;
-
 			var newsNavigationPage = new NavigationPage(new NewsPage());
 			newsNavigationPage.Title = "News";
 
@@ -22,7 +20,7 @@ namespace Winfitness
 			sportsNavigationPage.Title = "Sports";
 
 			var informationNavigationPage = new NavigationPage(new InformationsPage());
-			informationNavigationPage.Title = "Informations";
+			informationNavigationPage.Title = "Infos";
 
 			Children.Add(newsNavigationPage);
 			Children.Add(calendarNavigationPage);

@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{EBC793CB-E061-4E3B-BC36-74E6BD8E6906}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Winfitness/Pages/CalendarPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Winfitness/MainPageCS.xaml.cs">
     <Files>
-      <File FileName="Winfitness/Pages/CalendarPage.xaml.cs" Line="6" Column="53" />
-      <File FileName="Winfitness/Pages/Bases/BaseContentPage.cs" Line="7" Column="2" />
-      <File FileName="Winfitness/MainPageCS.xaml.cs" Line="14" Column="4" />
-      <File FileName="iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="Winfitness/ViewModels/CalendarPageViewModel.cs" Line="8" Column="54" />
-      <File FileName="Winfitness/Pages/CalendarPage.xaml" Line="1" Column="1" />
+      <File FileName="Winfitness/App.xaml" Line="6" Column="69" />
+      <File FileName="Winfitness/MainPageCS.xaml.cs" Line="12" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

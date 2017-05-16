@@ -5,11 +5,12 @@ using Xamarin.Forms;
 
 namespace Winfitness
 {
-	public partial class NewsPage : ContentPage
+	public partial class NewsPage : BaseContentPage
 	{
 		public NewsPage()
 		{
 			InitializeComponent();
+            Title = "News";
 		}
 	}
 }

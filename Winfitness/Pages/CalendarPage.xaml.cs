@@ -8,17 +8,13 @@ namespace Winfitness
 		public CalendarPage()
 		{
 			InitializeComponent();
+            Title = "Semaine";
 			BindingContext = new CalendarPageViewModel(this.Navigation);
+
 			daysListView.ItemSelected += (sender, e) =>
 			{
 				daysListView.SelectedItem = null;
 			};
-		}
-
-		protected override void OnAppearing()
-		{
-			base.OnAppearing();
-			NavigationPage.SetHasNavigationBar(this, false);
 		}
 	}
 }
