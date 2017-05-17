@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-
-using Xamarin.Forms;
 
 namespace Winfitness
 {
@@ -10,7 +7,7 @@ namespace Winfitness
 		public NewsPage()
 		{
 			InitializeComponent();
-            Title = "News";
+            Title = LocalizationResources.NewsTitle;
 		}
 	}
 }

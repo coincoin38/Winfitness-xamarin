@@ -6,6 +6,7 @@
 	<dict>
 		<key>output-files</key>
 		<array>
+			<string>/Users/juliengimenez/Winfitness-xamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/bundle/Assets.car</string>
 			<string>/Users/juliengimenez/Winfitness-xamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/partial-info.plist</string>
 		</array>
 	</dict>

@@ -44,6 +44,7 @@
 /Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/Mono.Security.dll
 /Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
 /Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/System.Xml.XDocument.dll
 /Users/juliengimenez/Winfitness-xamarin/Droid/obj/Debug/android/assets/System.Xml.Linq.dll

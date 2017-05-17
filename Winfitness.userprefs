@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{EBC793CB-E061-4E3B-BC36-74E6BD8E6906}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Winfitness/MainPageCS.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Winfitness/Constants/Files.cs">
     <Files>
-      <File FileName="Winfitness/App.xaml" Line="6" Column="69" />
-      <File FileName="Winfitness/MainPageCS.xaml.cs" Line="12" Column="40" />
+      <File FileName="Winfitness/MainPageCS.xaml.cs" Line="10" Column="22" />
+      <File FileName="Winfitness/Constants/Colors.cs" Line="4" Column="2" />
+      <File FileName="Winfitness/Constants/Files.cs" Line="4" Column="5" />
+      <File FileName="Winfitness/App.xaml" Line="8" Column="21" />
+      <File FileName="Winfitness/Pages/Bases/BaseContentPage.cs" Line="4" Column="1" />
+      <File FileName="Winfitness/LocalizationResources.resx" Line="27" Column="5" />
+      <File FileName="Winfitness/Services/SessionsService.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
